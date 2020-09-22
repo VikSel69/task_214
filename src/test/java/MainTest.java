@@ -21,6 +21,7 @@ public class MainTest {
 
         KoscheiTheDeathless koscheiTheDeathless =
                 applicationContext.getBean(KoscheiTheDeathless.class);
+        System.out.println(text);
         System.out.println(koscheiTheDeathless.getRulesByDeth());
         String testText = koscheiTheDeathless.getRulesByDeth();
 
